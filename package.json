@@ -1,7 +1,6 @@
 {
   "name": "project-three-backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,10 +15,23 @@
     "dotenv": "^16.0.3",
     "ejs": "^3.1.8",
     "express": "^4.18.2",
+    "method": "^2.0.0",
     "method-override": "^3.0.0",
     "mongodb": "^4.13.0",
     "mongoose": "^6.8.3",
     "morgan": "^1.10.0",
+    "override": "^0.0.1"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codescody/project-three-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codescody/project-three-backend/issues"
+  },
+  "homepage": "https://github.com/codescody/project-three-backend#readme",
+  "description": ""
 }
